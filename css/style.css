@@ -1,19 +1,109 @@
 body{
-    background-color: gray;
+    /* background-image: url(../image/blue_background_design-wallpaper-2048x1152.jpg); */
+    /* background-image: url(https://www.planwallpaper.com/static/images/Background-Design-Images-40-HD-Screensavers-1024x640.jpg); */
 }
-#header-navbar{
-    background-color: rgb(215, 38, 221) !important;
+#header-navbar, #header-navbar article, #header-navbar article nav{
+    /* background-color: rgb(215, 38, 221) !important; */
+    color:rgb(5, 0, 0);
 }
-#header-navbar  a{
+#header-navbar article nav a{
     color: rgb(239, 229, 240) !important;
 }
+#header-navbar article{
+    margin-top:13px;
+    margin-left:2px;
+    margin-right:2px;
+    margin-bottom:13px;
+}
 
-.nav > li.dropdown.open {
+#navigation-bar .nav > li.dropdown.open {
     position: static;
 }
-.nav > li.dropdown.open .dropdown-menu {
+#navigation-bar .nav > li.dropdown.open .dropdown-menu {
     display:table; width: 100%; text-align: center; left:0; right:0;
 }
-.dropdown-menu>li {
+#navigation-bar .dropdown-menu>li {
     display: table-cell;
 }
+
+.fa-shopping-basket{
+    font-size:1.4rem;
+}
+
+
+.round-border-left{
+    border-radius: 10px 0px 0px 10px;
+}
+.round-border-right{
+    border-radius: 0px 10px 10px 0px;
+}
+.input-group-text.bg-transparent.px-3 {
+    background-color: tomato !important;
+}
+.input-group-text{
+    color:white !important;
+}
+
+
+input[type="search"]{
+    box-shadow: none;
+    border:none;
+    outline: none;
+    border: 1px solid gray;
+    outline: steelblue;
+}
+
+
+input[type="search"]:hover{
+    box-shadow: none;
+    border:none;
+    outline: none;
+}
+input[type="search"]:focus{
+    box-shadow: none;
+    border:none;
+    outline: none;
+    box-shadow: 1px 0.7px 0.5px gray;
+}
+
+/* test */
+/* dropdown-menue => ddm  */
+#navigation-bar .dropdown-menu {
+	min-width: 200px;
+}
+#navigation-bar .dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+#navigation-bar .dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+#navigation-bar .dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+#navigation-bar .multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#navigation-bar .multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+#navigation-bar .multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	#navigation-bar .dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+/* end test */
