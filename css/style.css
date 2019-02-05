@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+#header-navbar{
+    background-color: rgb(215, 38, 221) !important;
+}
+#header-navbar  a{
+    color: rgb(239, 229, 240) !important;
+}
+
+.nav > li.dropdown.open {
+    position: static;
+}
+.nav > li.dropdown.open .dropdown-menu {
+    display:table; width: 100%; text-align: center; left:0; right:0;
+}
+.dropdown-menu>li {
+    display: table-cell;
+}
